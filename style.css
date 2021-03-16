@@ -1,0 +1,61 @@
+:root{
+    --header-color: #fff
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Futura-Normal', arial;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/img/bg.webp);
+    background-position: center;
+}
+
+header{
+    width: 100vw;
+    height: 20vh;
+    padding-right: 1.5rem;
+}
+
+.header-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.header-list li{
+    font-size: 1rem;
+    color: var(--header-color);
+    padding: 1.6rem 0.5rem;
+    text-decoration: none;
+}
+.app-image{
+    width: 2rem;
+}
+
+.image-profile{
+    border-radius: 50%;
+    width: 2.5rem;
+}
+
+main{
+    position: flex;
+    width: 100vw;
+    height: 70vh;
+    flex-wrap: wrap;
+}
+
+
+
+
