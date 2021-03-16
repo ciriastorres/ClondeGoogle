@@ -1,5 +1,5 @@
 :root{
-    --header-color: #fff
+    --header-color:#f2f0eb
 }
 
 *{
@@ -52,10 +52,57 @@ header{
 main{
     position: flex;
     width: 100vw;
-    height: 70vh;
+    height: 65vh;
     flex-wrap: wrap;
 }
 
+.main-title{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.main-title h1{
+    font-size: 6.8rem;
+    color: var(--header-color);
+}
 
+.main-search{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.main-search input{
+    width: 55vw;
+    height: 7vh;
+    border-radius: 1rem;
+    font-family: 'Futura-Normal', arial;
+    padding-left: 3.3rem;
+}
+
+.icon-search{
+    width: 2rem;
+    position: relative;
+    top: 2.8rem;
+    margin-left: 1rem;
+}
+
+.main-most-used-apps{
+    width: 100vw;
+    height: 20vh;
+    background-color: midnightblue;
+}
+
+.mic-search{
+    width: 1rem;
+    position: relative;
+    bottom: 2.2rem;
+    left: 52vw;
+    margin-right: 1rem;
+}
 
